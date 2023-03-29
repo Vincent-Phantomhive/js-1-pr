@@ -80,7 +80,7 @@ if (minuties == 00 || minuties == 0) {
 else {
     let ostatokHours = 23 - hours;
     let ostatokMinuties = 60 - minuties;
-    alert('Осталось времени до следующего дня:' + ostatokHours + ' часов и ' + ostatokMinuties + ' минут');
+    alert('Осталось времени до следующего дня: ' + ostatokHours + ' часов и ' + ostatokMinuties + ' минут');
 }
 
 

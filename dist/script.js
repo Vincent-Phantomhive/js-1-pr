@@ -67,7 +67,7 @@ if (minuties == 00 || minuties == 0) {
 else {
     var ostatokHours = 23 - hours;
     var ostatokMinuties = 60 - minuties;
-    alert('Осталось времени до следующего дня:' + ostatokHours + ' часов и ' + ostatokMinuties + ' минут');
+    alert('Осталось времени до следующего дня: ' + ostatokHours + ' часов и ' + ostatokMinuties + ' минут');
 }
 // задание 8
 /*
