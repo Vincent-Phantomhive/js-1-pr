@@ -15,7 +15,8 @@ alert('Вторая степень числа ' + num + ' равна ' + (num **
 
 let firstNum = prompt('Задание 2. Введите первое число:');
 let secondNum = prompt('Введите второе число:');
-alert('Среднее арифметическое чисел равно ') + ((firstNum + secondNum) / 2);
+let sred = (Number(firstNum) + Number(secondNum)) / 2;
+alert('Среднее арифметическое чисел равно ' + sred);
 
 // задание 3
 /* 
@@ -35,7 +36,7 @@ alert('Площадь квадрата равна ' + (hight ** 2));
 
 let km = prompt('Задание 4. Введите кол-во километров:');
 const mil = 0.621371;
-alert(km + ' километров равно ' + (km * mili) + ' миль');
+alert(km + ' километров равно ' + (km * mil) + ' миль');
 
 // задание 5
 /* 
@@ -44,8 +45,8 @@ alert(km + ' километров равно ' + (km * mili) + ' миль');
 этими числами.
 */
 
-let a = prompt('Задание 5. Введите первое число:');
-let b = prompt('Введите второе число:');
+let a = Number(prompt('Задание 5. Введите первое число:'));
+let b = Number(prompt('Введите второе число:'));
 let sum = a + b;
 let razn = a - b;
 let del = a / b;
